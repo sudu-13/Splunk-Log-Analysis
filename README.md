@@ -23,5 +23,5 @@ The project aims to detect and analyze:
 ### ⚙️ Environment Setup
 
 1. **Log in to Splunk Web:** Access your Splunk instance via the browser.
-2. **Navigate to App:**
+2. **Navigate to :**
    **Apps** → **Search & Reporting**.
