@@ -43,3 +43,4 @@ The project aims to detect and analyze:
 4. **Upload:** 
    `ssh_log.json`.
    ![Splunk Step 6](./image/6.png)
+   ![Splunk Step 7](./image/7.png)
