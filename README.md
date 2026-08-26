@@ -57,4 +57,7 @@ The project aims to detect and analyze:
    ![Splunk Step 13](./image/13.png)
    ![Splunk Step 14](./image/14.png)
 
+6. **Click Start Searching**
+    ![Splunk Step 15](./image/15.png)
+
 
