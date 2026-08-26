@@ -24,4 +24,5 @@ The project aims to detect and analyze:
 
 1. **Log in to Splunk Web:** Access your Splunk instance via the browser.
 2. **Navigate to :**
+   
    **Apps** → **Search & Reporting**.
