@@ -12,3 +12,10 @@ The project aims to detect and analyze:
 * ❌ Failed login attempts (password guessing & spraying)
 * 🚨 Multiple failed authentication attempts (brute-force indicators)
 * 🔍 Connections without authentication (SSH probing or scanning)
+
+#   Lab Setup & Prerequisites
+# Prerequisites
+* Splunk Enterprise / Splunk Free
+* Basic understanding of SPL
+# Dataset
+* ssh_log.json (JSON-formatted SSH authentication logs)
