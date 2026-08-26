@@ -100,3 +100,4 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 | stats count by id.orig_h, id.resp_h
 | where count > 5
 ```
+![Splunk Step 19](./image/19.png)
