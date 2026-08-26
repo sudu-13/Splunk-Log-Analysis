@@ -128,4 +128,19 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 index=ssh_logs event_type="Successful SSH Login"
 | stats count by id.orig_h, id.resp_h
 ```
+![Splunk Step 27](./image/27.png)
+
+### 🔍 Security Correlation
+
+* **Failed vs. Successful Analysis:** Compare source IPs performing successful logins against prior failed attempts.
+* **Threat Detection:** Identify possible compromised credentials or successful brute-force intrusions.
+
+> 📊 **Dashboard Panel:**
+* Top source IPs with successful SSH access.
+
+![Splunk Step 28](./image/28.png)
+![Splunk Step 29](./image/29.png)
+![Splunk Step 30](./image/30.png)
+![Splunk Step 31](./image/31.png)
+![Splunk Step 32](./image/32.png)
 
