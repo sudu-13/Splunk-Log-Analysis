@@ -19,3 +19,8 @@ The project aims to detect and analyze:
 * Basic understanding of SPL
 # Dataset
 * ssh_log.json (JSON-formatted SSH authentication logs)
+
+### ⚙️ Environment Setup
+
+1. **Log in to Splunk Web:** Access your Splunk instance via the browser.
+2. **Navigate to App:** Select **Apps** → **Search & Reporting**.
