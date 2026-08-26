@@ -26,3 +26,7 @@ The project aims to detect and analyze:
 2. **Navigate to :**
    
    **Apps** → **Search & Reporting**.
+
+   ![Splunk Dashboard / Search](./image/1.png)
+
+   ![Splunk Step 2](./image/2.png)
