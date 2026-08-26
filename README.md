@@ -60,4 +60,22 @@ The project aims to detect and analyze:
 6. **Click Start Searching**
     ![Splunk Step 15](./image/15.png)
 
+## 🛠️ Step-by-Step Implementation
+
+### 🔹 Task 1: Log Ingestion & Parsing
+
+**Extracted Fields:**
+* `event_type`
+* `auth_success`
+* `auth_attempts`
+* `id.orig_h` (Source IP)
+* `id.resp_h` (Destination Host)
+
+**Validation Query:**
+```spl
+index=ssh_logs
+| stats count by event_type
+
+ Confirms successful ingestion and parsing.
+
 
