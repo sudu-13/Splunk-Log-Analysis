@@ -120,3 +120,12 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 ![Splunk Step 24](./image/24.png)
 ![Splunk Step 25](./image/25.png)
 ![Splunk Step 26](./image/26.png)
+
+### 🔹 Task 4: Successful SSH Login Tracking
+
+**SPL Query:**
+```spl
+index=ssh_logs event_type="Successful SSH Login"
+| stats count by id.orig_h, id.resp_h
+```
+
