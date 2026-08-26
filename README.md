@@ -101,3 +101,14 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 | where count > 5
 ```
 ![Splunk Step 19](./image/19.png)
+
+#### 🚨 Alert Configuration
+
+| Setting | Configuration |
+| :--- | :--- |
+| **Trigger Condition** | `> 5 failed attempts` |
+| **Time Window** | `10 minutes` |
+| **Alert Type** | `Scheduled / Real-Time` |
+| **Trigger Action** | `SOC notification or email` |
+
+> 📌 **Purpose:** Early detection of brute-force attacks.
