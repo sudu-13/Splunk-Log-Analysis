@@ -78,4 +78,6 @@ index=ssh_logs
 ```
  Confirms successful ingestion and parsing.
 
+  ![Splunk Step 16](./image/16.png)
+
 
