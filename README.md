@@ -186,3 +186,14 @@ index=ssh_logs event_type="Connection Without Authentication"
 * 🚨 **Threat Detection:** Brute-force identification, credential abuse monitoring, and threshold-based alerting
 * 📊 **Visualization & SOC Operations:** Security dashboard design, correlation workflows, and triage alerting
 
+  # 📌 Conclusion
+* The Splunk Log Analysis project establishes an end-to-end security monitoring and threat detection workflow for SSH authentication logs. By taking raw, semi-structured JSON telemetry and operationalizing it within Splunk, the implementation achieves:
+
+* High-Fidelity Detection: Automatically surfaces brute-force campaigns by isolating repeated authentication failures exceeding safe baseline thresholds (> 5 failures in 10 mins).
+
+* Compromised Account Discovery: Enables security correlation between anomalous failed attempt spikes and subsequent successful logins to detect valid credential compromise.
+
+* Proactive Reconnaissance Monitoring: Visualizes time-series trends for unauthenticated connections and unauthorized access attempts before exploitation escalates.
+
+* SOC Operations Readiness: Translates complex event streams into structured dashboards and alert rules, demonstrating practical Splunk SPL proficiency, log parsing, and SIEM monitoring best practices.
+
