@@ -48,5 +48,13 @@ The project aims to detect and analyze:
 5. **Configure Input Settings:**
    * **Source type:** `_json`
    * **Index:** `ssh_logs`
+  
+   ![Splunk Step 8](./image/8.png)
+   ![Splunk Step 9](./image/9.png)
+   ![Splunk Step 10](./image/10.png)
+   ![Splunk Step 11](./image/11.png)
+   ![Splunk Step 12](./image/12.png)
+   ![Splunk Step 13](./image/13.png)
+   ![Splunk Step 14](./image/14.png)
 
 
