@@ -92,3 +92,11 @@ index=ssh_logs event_type="Failed SSH Login"
  ![Splunk Step 17](./image/17.png)
 ![Splunk Step 18](./image/18.png)
 
+### 🔹 Task 3: Brute-Force Detection
+
+**Multiple Failed Attempts Query:**
+```spl
+index=ssh_logs event_type="Multiple Failed Authentication Attempts"
+| stats count by id.orig_h, id.resp_h
+| where count > 5
+```
