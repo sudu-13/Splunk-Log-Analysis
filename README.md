@@ -144,3 +144,19 @@ index=ssh_logs event_type="Successful SSH Login"
 ![Splunk Step 31](./image/31.png)
 ![Splunk Step 32](./image/32.png)
 
+### 🔹 Task 5: Unauthenticated SSH Connections
+
+**Detection Query:**
+```spl
+index=ssh_logs event_type="Connection Without Authentication"
+| stats count by id.orig_h
+```
+
+
+#### ⏱️ Time-Based Monitoring
+
+```spl
+index=ssh_logs event_type="Connection Without Authentication"
+| timechart count by id.orig_h
+```
+
