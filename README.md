@@ -75,7 +75,7 @@ The project aims to detect and analyze:
 ```spl
 index=ssh_logs
 | stats count by event_type
-
+```
  Confirms successful ingestion and parsing.
 
 
