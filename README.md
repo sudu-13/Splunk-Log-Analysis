@@ -1,27 +1,14 @@
-# Analyzing DNS Log Files using Splunk SIEM
-# Introduction
+# Log Analysis using Splunk
 
-DNS (Domain Name System) logs are crucial for understanding network activity and identifying potential security threats. Splunk SIEM (Security Information and Event Management) provides powerful capabilities for analyzing DNS logs and detecting anomalies or malicious activities.
+# Project Overview
+This project demonstrates SSH authentication log analysis using Splunk SIEM to detect malicious activity such as brute-force attacks, unauthorized access attempts, and suspicious SSH behavior.
 
-# Skills Learned
-Advanced understanding of SIEM concepts and practical application
-Understand the Splunk query language and implement it in the project
-Understand the concept of Log Analysis
-Development of critical thinking and problem-solving skills in cybersecurity
+It simulates real-world SOC analyst workflows, including log ingestion, SPL queries, dashboards, and alerting.
 
-# Prerequisites
-Splunk instance is installed and configured
-DNS log data sources are configured to forward logs to Splunk.
+# Objectives
+The project aims to detect and analyze:
 
-# Steps
-# Prepare a sample DNS Log file
-Obtain a sample DNS log file in a suitable format (e.g., text files).
-Navigate to Splunk settings>Add Data
-Select upload as the data input method
-
-# Upload file
-Upload a DNS log file.
-Choose the appropriate source type for DNS logs (e.g., dns or a custom source type if applicable).
-Once all settings are configured, click on the Review button.
-Review the settings one final time to ensure accuracy.
-Click Submit to upload the sample DNS log file to Splunk.
+* ✅ Successful SSH logins (source and destination analysis)
+* ❌ Failed login attempts (password guessing & spraying)
+* 🚨 Multiple failed authentication attempts (brute-force indicators)
+* 🔍 Connections without authentication (SSH probing or scanning)
