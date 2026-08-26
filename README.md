@@ -112,3 +112,11 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 | **Trigger Action** | `SOC notification or email` |
 
 > 📌 **Purpose:** Early detection of brute-force attacks.
+
+![Splunk Step 20](./image/20.png)
+![Splunk Step 21](./image/21.png)
+![Splunk Step 22](./image/22.png)
+![Splunk Step 23](./image/23.png)
+![Splunk Step 24](./image/24.png)
+![Splunk Step 25](./image/25.png)
+![Splunk Step 26](./image/26.png)
