@@ -151,7 +151,7 @@ index=ssh_logs event_type="Successful SSH Login"
 index=ssh_logs event_type="Connection Without Authentication"
 | stats count by id.orig_h
 ```
-
+![Splunk Step 33](./image/33.png)
 
 #### ⏱️ Time-Based Monitoring
 
@@ -159,4 +159,5 @@ index=ssh_logs event_type="Connection Without Authentication"
 index=ssh_logs event_type="Connection Without Authentication"
 | timechart count by id.orig_h
 ```
+![Splunk Step 34](./image/34.png)
 
