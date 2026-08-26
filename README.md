@@ -153,11 +153,36 @@ index=ssh_logs event_type="Connection Without Authentication"
 ```
 ![Splunk Step 33](./image/33.png)
 
-#### ⏱️ Time-Based Monitoring
+####  Time-Based Monitoring
 
 ```spl
 index=ssh_logs event_type="Connection Without Authentication"
 | timechart count by id.orig_h
 ```
 ![Splunk Step 34](./image/34.png)
+
+📌 Purpose: Detect reconnaissance, SSH probing, or port scanning.
+
+## 📊 Dashboards Implemented
+
+| Dashboard Panel | Description / Use Case | Recommended Visualization |
+| :--- | :--- | :--- |
+| 🔐 **SSH Successful Login Monitoring** | Tracks verified and authenticated SSH access by source and destination hosts. | Statistics Table / Single Value |
+| ❌ **Failed Authentication Attempts** | Aggregates and ranks source IPs generating repeated login failures. | Bar Chart / Top List |
+| 🚨 **Brute-Force Detection** | Pinpoints high-frequency repeated authentication failures exceeding security thresholds (`> 5 attempts`). | Alert Table / Gauge |
+| 🔍 **Unauthenticated SSH Connection Trends** | Monitors time-series patterns of connection attempts made without proper credentials. | Area / Line Timechart |
+
+## 🚨 Alerts Implemented
+
+| Alert Name | Condition | Time Window | Action |
+| :--- | :--- | :--- | :--- |
+| **Brute Force Detection** | `> 5 failed attempts` | 10 minutes | SOC Notification / Email Alert |
+
+## 🧠 Skills Demonstrated
+
+* 🛡️ **SIEM & Security Monitoring:** Splunk Enterprise / Splunk Cloud
+* 💻 **SPL Proficiency:** Query optimization, aggregations, filtering, and time-series analysis (`stats`, `timechart`, `where`, `eval`)
+* 📑 **Log Parsing & Ingestion:** Structured JSON schema handling, field extraction, and index management
+* 🚨 **Threat Detection:** Brute-force identification, credential abuse monitoring, and threshold-based alerting
+* 📊 **Visualization & SOC Operations:** Security dashboard design, correlation workflows, and triage alerting
 
