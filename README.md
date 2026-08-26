@@ -89,5 +89,6 @@ index=ssh_logs event_type="Failed SSH Login"
 | sort - count
 | head 10
 ```
-
+ ![Splunk Step 17](./image/17.png)
+![Splunk Step 18](./image/18.png)
 
