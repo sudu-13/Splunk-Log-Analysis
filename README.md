@@ -80,4 +80,14 @@ index=ssh_logs
 
   ![Splunk Step 16](./image/16.png)
 
+### 🔹 Task 2: Failed Login Analysis
+
+**SPL Query:**
+```spl
+index=ssh_logs event_type="Failed SSH Login"
+| stats count by id.orig_h
+| sort - count
+| head 10
+```
+
 
