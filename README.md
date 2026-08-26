@@ -30,3 +30,12 @@ The project aims to detect and analyze:
    ![Splunk Dashboard / Search](./image/1.png)
 
    ![Splunk Step 2](./image/2.png)
+
+   3. **Click:**  
+   **Settings** → **Add Data** → **Upload**
+
+![Splunk Step 3](./image/3.png)
+
+![Splunk Step 4](./image/4.png)
+
+![Splunk Step 5](./image/5.png)
