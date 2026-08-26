@@ -44,3 +44,9 @@ The project aims to detect and analyze:
    `ssh_log.json`.
    ![Splunk Step 6](./image/6.png)
    ![Splunk Step 7](./image/7.png)
+
+5. **Configure Input Settings:**
+   * **Source type:** `_json`
+   * **Index:** `ssh_logs`
+
+
