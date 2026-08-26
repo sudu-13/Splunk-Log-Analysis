@@ -31,8 +31,8 @@ The project aims to detect and analyze:
 
    ![Splunk Step 2](./image/2.png)
 
-   3. **Click:**  
-   **Settings** → **Add Data** → **Upload**
+3. **Click:**  
+  **Add Data** → **Upload**
 
 ![Splunk Step 3](./image/3.png)
 
